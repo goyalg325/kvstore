@@ -1,0 +1,36 @@
+# Binaries and executables
+kvstore
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Log files
+*.log
+node*.log
+
+# Data directories and files
+/data/
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Go specific
+/vendor/
+/go.sum.bak
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories (uncomment if not using Go modules)
+# /vendor/
